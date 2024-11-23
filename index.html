@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mukta Parashar's Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    section {
+      padding: 20px;
+      display: none; /* Initially hide all sections */
+    }
+    section.active {
+      display: block; /* Show active section */
+    }
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .profile-photo {
+      max-width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid #4CAF50;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      display: block;
+      margin: 20px auto;
+    }
+    ul, ol {
+      line-height: 1.8;
+    }
+  </style>
+  <script>
+    // Function to show the selected section
+    function showSection(id) {
+      const sections = document.querySelectorAll('section');
+      sections.forEach(section => section.classList.remove('active')); // Hide all sections
+      document.getElementById(id).classList.add('active'); // Show the selected section
+    }
+
+    // By default, show the Introduction section
+    document.addEventListener("DOMContentLoaded", () => {
+      showSection('intro');
+    });
+  </script>
+</head>
+<body>
+
+<header>
+  <h1>Mukta Parashar's Profile</h1>
+</header>
+
+<nav>
+  <a href="#" onclick="showSection('intro')">Introduction</a>
+  <a href="#" onclick="showSection('education')">Education</a>
+  <a href="#" onclick="showSection('Experience')">Experience</a>
+  <a href="#" onclick="showSection('publications')">Publications</a>
+</nav>
+
+<section id="intro" class="active" style="background: #f4f4f4; padding: 40px 20px; color: #333;">
+  <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 20px; color: #4CAF50; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);">About Mrs. Mukta Parashar</h2>
+  <div style="text-align: center; margin-bottom: 30px;">
+    </div>
+  </div>
+  <div style="max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+    <ul style="list-style: none; padding: 0; font-size: 1.2rem; line-height: 1.8; color: #444;">
+      <li style="margin-bottom: 15px;">
+        <span style="font-size: 1.5rem; color: #4CAF50; margin-right: 10px;">&#128100;</span>
+        <strong>Name:</strong> Mrs. Mukta Parashar
+      </li>
+      <li style="margin-bottom: 15px;">
+        <span style="font-size: 1.5rem; color: #4CAF50; margin-right: 10px;">&#128107;</span>
+        <strong>Husband's Name:</strong> Mr. Manish Parashar
+      </li>
+      <li style="margin-bottom: 15px;">
+        <span style="font-size: 1.5rem; color: #4CAF50; margin-right: 10px;">&#127968;</span>
+        <strong>Residential Address:</strong><br>
+        Flat No. 401, Ashirwad Apartment,<br>
+        37-38 Kailash Park Colony, Geeta Bhawan,<br>
+        Indore (M.P.) - 452 001
+      </li>
+      <li style="margin-bottom: 15px;">
+        <span style="font-size: 1.5rem; color: #4CAF50; margin-right: 10px;">&#128222;</span>
+        <strong>Mobile No.:</strong> 9827084407
+      </li>
+      <li style="margin-bottom: 15px;">
+        <span style="font-size: 1.5rem; color: #4CAF50; margin-right: 10px;">&#128231;</span>
+        <strong>Email ID:</strong> mukta.parashar88@gmail.com
+      </li>
+      <li style="margin-bottom: 15px;">
+        <span style="font-size: 1.5rem; color: #4CAF50; margin-right: 10px;">&#127874;</span>
+        <strong>Date of Birth:</strong> 21st May, 1978
+      </li>
+      <li style="margin-bottom: 15px;">
+        <span style="font-size: 1.5rem; color: #4CAF50; margin-right: 10px;">&#128187;</span>
+        <strong>Computer Literacy:</strong> Working knowledge of MS Dos, MS Office, and Internet Browsing
+      </li>
+      <li style="margin-bottom: 15px;">
+        <span style="font-size: 1.5rem; color: #4CAF50; margin-right: 10px;">&#127891;</span>
+        <strong>Languages Known:</strong> English & Hindi
+      </li>
+    </ul>
+  </div>
+</section><br><br><br><br>
+
+<section id="education" style="background: #f9f9f9; padding: 40px 20px; color: #333;">
+  <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 20px; color: #4CAF50; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);">Educational Qualifications</h2>
+  
+  <div style="max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+    <ol style="padding: 0 20px; font-size: 1.2rem; line-height: 1.8; color: #444; list-style-type: decimal;">
+      
+      <li style="margin-bottom: 20px;">
+        <strong style="font-size: 1.3rem; color: #4CAF50;">B.Sc. (Biology)</strong>
+        <p style="margin: 5px 0; color: #555;">Completed in 1997 from Barkatullah University, Bhopal.</p>
+      </li>
+      
+      <li style="margin-bottom: 20px;">
+        <strong style="font-size: 1.3rem; color: #4CAF50;">M.A. (Psychology)</strong>
+        <p style="margin: 5px 0; color: #555;">Completed in 1999 from Barkatullah University, Bhopal.</p>
+      </li>
+      
+      <li style="margin-bottom: 20px;">
+        <strong style="font-size: 1.3rem; color: #4CAF50;">M.Phil. (Clinical Psychology)</strong>
+        <p style="margin: 5px 0; color: #555;">Previous completed in 2000 from Barkatullah University, Bhopal.</p>
+      </li>
+      
+      <li style="margin-bottom: 20px;">
+        <strong style="font-size: 1.3rem; color: #4CAF50;">B.Ed. (Bio-Chemistry)</strong>
+        <p style="margin: 5px 0; color: #555;">Completed in 2012 from Devi Ahilya University, Indore.</p>
+      </li>
+      
+      <li style="margin-bottom: 20px;">
+        <strong style="font-size: 1.3rem; color: #4CAF50;">Ph.D. (Psychology)</strong>
+        <p style="margin: 5px 0; color: #555;">Pursuing from SAGE University, Indore.</p>
+      </li>
+
+    </ol>
+  </div>
+</section><br><br><br><br>
+
+<section id="Experience" style="background: #f2f7ff; padding: 40px 20px; color: #333;">
+  <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 20px; color: #4CAF50; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);">
+    Professional Experience
+  </h2>
+  
+  <div style="max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+    <ul style="list-style-type: none; padding: 0; font-size: 1.2rem; line-height: 2; color: #444;">
+      
+      <li style="margin-bottom: 25px; padding: 10px; border-bottom: 1px solid #ddd;">
+        <strong style="font-size: 1.4rem; color: #4CAF50;">St. Arnold's School, Lalarm Nagar, Indore</strong>
+        <p style="margin: 5px 0; font-size: 1rem; color: #777;">March 2018 – Present</p>
+        <p style="margin: 10px 0; color: #555;">Currently working in a leading educational institution, contributing to student development and quality education.</p>
+      </li>
+
+      <li style="margin-bottom: 25px; padding: 10px; border-bottom: 1px solid #ddd;">
+        <strong style="font-size: 1.4rem; color: #4CAF50;">Chameli Devi Public School-2</strong>
+        <p style="margin: 5px 0; font-size: 1rem; color: #777;">January 2010 – April 2011, Rejoined: December 2016 – March 2018</p>
+        <p style="margin: 10px 0; color: #555;">Developed a student-centered learning environment and managed educational programs efficiently.</p>
+      </li>
+
+      <li style="margin-bottom: 25px; padding: 10px; border-bottom: 1px solid #ddd;">
+        <strong style="font-size: 1.4rem; color: #4CAF50;">TATA Finance Ltd., Indore</strong>
+        <p style="margin: 5px 0; font-size: 1rem; color: #777;">May 2004 – August 2004</p>
+        <p style="margin: 10px 0; color: #555;">Served as an Officer handling cash, clearing, and hire-purchase operations with Pinnacle Software.</p>
+      </li>
+
+      <li style="margin-bottom: 25px; padding: 10px; border-bottom: 1px solid #ddd;">
+        <strong style="font-size: 1.4rem; color: #4CAF50;">ICICI Bank, Laxmi Tower, Indore</strong>
+        <p style="margin: 5px 0; font-size: 1rem; color: #777;">August 2001 – December 2003</p>
+        <p style="margin: 10px 0; color: #555;">Junior Officer responsible for cash and clearing operations, efficiently utilizing Pinnacle Software.</p>
+      </li>
+
+      <li style="margin-bottom: 25px; padding: 10px;">
+        <strong style="font-size: 1.4rem; color: #4CAF50;">Bank of Madura, Noida</strong>
+        <p style="margin: 5px 0; font-size: 1rem; color: #777;">May 2000 – July 2001</p>
+        <p style="margin: 10px 0; color: #555;">Provided outstanding banking services and supported daily operations in this prominent financial institution.</p>
+      </li>
+
+    </ul>
+  </div>
+</section>
+<section id="publications" style="background: #f2f7ff; padding: 40px 20px; color: #333;">
+  <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 20px; color: #4CAF50; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);">
+    Publications
+  </h2>
+  
+  <div style="max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+    <!-- Improved Paper Title -->
+    <h3 style="text-align: center; font-size: 2rem; color: #333; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; line-height: 1.3; margin-bottom: 15px;">
+      A Study on the Effect of Career Preferences on Mental Well-Being Among Students
+    </h3>
+    
+    <!-- Abstract Section -->
+    <h4 style="text-align: center; font-size: 1.8rem; margin-bottom: 20px; color: #333; font-weight: bold;">
+      Abstract
+    </h4>
+    
+    <!-- Abstract Content in Quotation Marks -->
+    <blockquote style="font-size: 1.2rem; line-height: 1.8; color: #444; text-align: justify; border-left: 5px solid #04AA6D; padding-left: 20px; font-style: italic; margin: 0 0 20px 0;">
+      Career preferences are integral to students' development, shaping their academic pursuits, social interactions, and personal aspirations. While pursuing these preferences, students face immense pressure from intrinsic desires, societal expectations, and parental influences, potentially affecting their mental well-being.
+      <br /><br />
+      This study explores the interplay between career preferences and mental health, identifying stressors such as academic pressure, societal norms, and the psychological toll of career uncertainty. Employing a mixed-methods approach, this research investigates the factors contributing to these challenges and proposes evidence-based interventions to support students’ mental well-being.
+      <br /><br />
+      The findings reveal the urgent need for systematic support mechanisms, such as career counseling and mental health services, to foster resilience and satisfaction among students navigating career choices.
+    </blockquote>
+
+    <!-- Full Paper Link Button -->
+    <center>
+      <a href="https://drive.google.com/file/d/1SnYIRP75poi9HRWb-9kbVrASJgfssC8A/view" target="_blank" 
+        style="background-color: #04AA6D; border: none; color: white; padding: 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin-top: 20px; cursor: pointer; border-radius: 12px;">
+        VIEW FULL PAPER
+      </a>
+    </center>
+  </div>
+</section>
+<br><br><br><br>
+
+<footer>
+  <p>&copy; 2024 Mukta Parashar's Profile. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
